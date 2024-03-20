@@ -80,3 +80,12 @@ button:hover {
     color: blue;
     line-height: 1.5;
 }
+
+fieldset {
+    padding: 20px;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

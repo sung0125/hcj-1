@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">WebDemo</div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="formtest.html">Formtest</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="container">
+            <form>
+                <label for="fname">First Nmae :</label>
+                <input type="text" name="fname" id="fname" value="John">
+                <br>
+                <label for="lname">Last Name :</label>
+                <input type="text" name="lname" id="lname" placeholder="Kim">
+                <br>
+                <label for="pass">Password</label>
+                <input type="password" name="passwd" id="pass">
+                <br>
+                <input type="tel">
+            
+
+                <fieldset>
+                    <legend>상품 선택</legend>
+                    <p>주문할 상품을 선택해 주세요</p>
+                    <label for="">
+                        <input type="checkbox" value="s_3">선물용 3kg
+                    </label>
+                    <label for="">
+                        <input type="checkbox" value="s_5">선물용 5kg
+                    </label>
+                    <label for="">
+                        <input type="checkbox" value="h_3">가정용 3kg
+                    </label>
+                    <label for="">
+                        <input type="checkbox" value="h_5">가정용 5kg
+                    </label>
+                    <p>포장 선택</p>
+                    <label for="">
+                        <input type="radio" name="gift" value="yes">선물포장
+                    </label>
+                    <label for="">
+                        <input type="radio" name="gift" value="No">선물포장 안함
+                    </label>
+                </fieldset>
+
+                <label>선물용 3kg</label>
+                <input type="number" min="0" max="5" autofocus>
+                <input type="range" min="0" max="10" value="1" step="2">
+                <br>
+                <input type="date" name="date">
+                <input type="month" name="month">
+                <input type="week" name="week">
+                <input type="datetime-local" name="date" id="">
+                <br>
+                <input type="submit" value="제출하기">
+                <input type="reset" value="초기화">
+                <input type="hidden" name="비밀정보" value="정보를보낼수없습니다.">
+                <input type="button" value="버튼테스트">
+                <input type="file">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
