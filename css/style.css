@@ -9,7 +9,9 @@ body {
     line-height: 1.5;
     color: #333;
 }
-
+a {
+    text-decoration: none;
+}
 ul {
     list-style-type: none;
 }
@@ -67,13 +69,13 @@ button {
     font-size: large;
     font-weight: bolder;
     border-radius: 5px;
-    background-color: aquamarine;
+    background-color: #eeee;
     border-width: 1px;
 }
 
 button:hover {
-    color: red;
-    background-color: chocolate;
+    color: orange;
+    background-color: aqua;
 }
 
 .main {
